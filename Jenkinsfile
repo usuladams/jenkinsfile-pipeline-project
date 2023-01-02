@@ -9,6 +9,7 @@ pipeline {
 
                 echo 'not using shell in the Jenkinsfile by Pauls'
             }
+            }
         
         stage('run') {
             steps {
@@ -20,4 +21,4 @@ pipeline {
     }
 }
 
-}
+
